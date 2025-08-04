@@ -1,88 +1,46 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
+  padding: 20px;
   background-color: #f4f4f4;
-  margin: 20px;
-  padding: 0;
-  text-align: center;
 }
 
 h1 {
-  color: #333;
-}
-
-.schedule {
-  overflow-x: auto;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 table {
-  border-collapse: collapse;
   width: 100%;
-  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
+  table-layout: fixed;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 th, td {
   border: 1px solid #ccc;
-  padding: 8px;
-  text-align: center;
-  min-width: 100px;
+  padding: 10px;
 }
 
 th {
-  background-color: #555;
-  color: white;
+  background-color: #ddd;
 }
 
-/* Colores por asignatura */
-.mat {
-  background-color: #4285f4;
-  color: white;
-}
+.math       { background-color: #4CAF50; color: white; }
+.math-lab   { background-color: #A5D6A7; color: black; }
 
-.mat-lab {
-  background-color: #a4c2f4;
-  color: black;
-}
+.anatomy    { background-color: #2196F3; color: white; }
+.anatomy-lab{ background-color: #90CAF9; color: black; }
 
-.bioq {
-  background-color: #34a853;
-  color: white;
-}
+.bioq       { background-color: #FF9800; color: white; }
+.bioq-lab   { background-color: #FFCC80; color: black; }
 
-.bioq-lab {
-  background-color: #a8e6a3;
-  color: black;
-}
+.fisio      { background-color: #9C27B0; color: white; }
+.fisio-lab  { background-color: #CE93D8; color: black; }
 
-.anat {
-  background-color: #fbbc05;
-  color: black;
-}
+.metrologia { background-color: #E91E63; color: white; }
 
-.fisio {
-  background-color: #ff6d01;
-  color: white;
-}
+.deporte    { background-color: #795548; color: white; }
 
-.comp {
-  background-color: #9b59b6;
-  color: white;
-}
-
-.comp-lab {
-  background-color: #e1bee7;
-  color: black;
-}
-
-.metro {
-  background-color: #00bcd4;
-  color: white;
-}
-
-.deporte {
-  background-color: #607d8b;
-  color: white;
-}
-
-.vacio {
-  background-color: transparent;
-}
+.ventana    { background-color: #EEEEEE; color: #333; font-style: italic; }
