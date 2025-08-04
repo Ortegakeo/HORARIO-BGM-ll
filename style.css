@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.schedule {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  min-width: 100px;
+}
+
+th {
+  background-color: #555;
+  color: white;
+}
+
+/* Colores por asignatura */
+.mat {
+  background-color: #4285f4;
+  color: white;
+}
+
+.mat-lab {
+  background-color: #a4c2f4;
+  color: black;
+}
+
+.bioq {
+  background-color: #34a853;
+  color: white;
+}
+
+.bioq-lab {
+  background-color: #a8e6a3;
+  color: black;
+}
+
+.anat {
+  background-color: #fbbc05;
+  color: black;
+}
+
+.fisio {
+  background-color: #ff6d01;
+  color: white;
+}
+
+.comp {
+  background-color: #9b59b6;
+  color: white;
+}
+
+.comp-lab {
+  background-color: #e1bee7;
+  color: black;
+}
+
+.metro {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.deporte {
+  background-color: #607d8b;
+  color: white;
+}
+
+.vacio {
+  background-color: transparent;
+}
